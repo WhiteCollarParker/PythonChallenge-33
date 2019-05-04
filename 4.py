@@ -2,7 +2,7 @@ from urllib.request import urlopen
 import re
 
 uri = "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=%s"
-num = 16044/2
+num = 16044 / 2
 
 while True:
     content = urlopen(uri % num).read().decode()
